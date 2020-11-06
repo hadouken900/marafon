@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.clear {
+    clear: both;
+}
+
+body {
+    background-color: #34495e;
+    color: #f1eeee;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background: url(crop.jpg) 50% 0 no-repeat fixed;
+}
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header.wrapper {
+    padding: 100px 15px 50px 50px;
+}
+
+#header-left {
+    float: left;
+    width:60%;
+
+}
+
+#header-right {
+    float: left;
+    width: 40%;
+}
+
+#header-shadow {
+    background: rgba(0,0,0,0.5);
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 100;
+}
+#header-left h1 {
+    font-size: 72px;
+    margin-top: 50px;
+    line-height: 1.1;
+}
+#header-left h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 1.1;
+}
+
+#header-left h1 strong {
+    font-weight: 400;
+}
+#header-left h1, #header-left h2, #header-left p {
+    margin-right: 40px;
+}
+#header-left h1, #header-left h2, #header-left p {
+    margin-right: 40px;
+}
+#header-left h1 strong {
+    font-weight: 400;
+}
+
+#header-left p {
+    font-size: 18px;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+}
+
+a.button-download {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+a.button-download:hover {
+    background-color: white;
+    color: black;
+}
+
+section.odd {
+    height: 400px;
+    background-color: white;
+}
+
+section.even {
+    height: 400px;
+}
